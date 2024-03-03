@@ -1,0 +1,23 @@
+{
+  "name": "br-currency-iso-to-symbol",
+  "version": "1.0.0",
+  "description": "An npm package to get symbol from ISO",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumarBrajesh12/br-currency-iso-to-symbol.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Kumar Brajesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KumarBrajesh12/br-currency-iso-to-symbol/issues"
+  },
+  "homepage": "https://github.com/KumarBrajesh12/br-currency-iso-to-symbol#readme"
+}
