@@ -1,6 +1,6 @@
 {
   "name": "br-currency-iso-to-symbol",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An npm package to get symbol from ISO",
   "main": "index.js",
   "type": "module",
