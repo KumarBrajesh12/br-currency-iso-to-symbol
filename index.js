@@ -666,5 +666,5 @@ export function getCurrencySymbol(iso,amount="",precision = 2) {
         return [symbol, formattedAmount, precision];
     }
 
-    return [symbol, "", precision];;
+    return [symbol];
 }
