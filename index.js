@@ -1,4 +1,4 @@
-export function getCurrencySymbol(iso,amount="") {
+export function getCurrencySymbol(iso,amount="",precision = 2) {
 
     const currencySymbols = {
         "AED": {
@@ -657,11 +657,14 @@ export function getCurrencySymbol(iso,amount="") {
     const { symbol, format } = currencyData;
 
     if (amount !== "") {
-        const formatter = new Intl.NumberFormat(format);
+        const formatter = new Intl.NumberFormat(format, {
+            minimumFractionDigits: precision,
+            maximumFractionDigits: precision
+        });
         const formattedAmount = formatter.format(amount);
 
-        return `${symbol} ${formattedAmount}`;
+        return [symbol, formattedAmount, precision];
     }
 
-    return symbol;
+    return [symbol, "", precision];;
 }
