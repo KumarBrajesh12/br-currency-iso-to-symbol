@@ -12,7 +12,13 @@
     "url": "git+https://github.com/KumarBrajesh12/br-currency-iso-to-symbol.git"
   },
   "keywords": [
-    "npm"
+    "npm",
+    "ISO currency",
+    "currency symbol",
+    "ISO to symbol",
+    "currency formatter",
+    "currency",
+    "iso"
   ],
   "author": "Kumar Brajesh",
   "license": "MIT",
