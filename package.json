@@ -18,7 +18,8 @@
     "ISO to symbol",
     "currency formatter",
     "currency",
-    "iso"
+    "iso",
+    "br-currency-iso-to-symbol"
   ],
   "author": "Kumar Brajesh",
   "license": "MIT",
